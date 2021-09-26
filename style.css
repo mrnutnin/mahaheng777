@@ -1,0 +1,107 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+marquee {
+    width: 100%;
+    height: 100%;
+}
+.logo-scan{
+    margin-left: 86%;
+}
+.web {
+    position: absolute;
+}
+img.sport{
+    width: 65%;
+}
+img.slot {
+    width: 65%;
+}
+img.kasino {
+    width: 65%;
+}
+.web.kasino {
+    margin-left: 23%;
+    margin-top: 16%;
+}
+.web.sport {
+    margin-left: 45%;
+    margin-top: 16%;
+}
+.web.slot {
+    margin-left: 66%;
+    margin-top: 15%;
+}
+.hover01.column {
+    position: absolute;
+}
+.bc-hover:hover {
+    color: #f8f8ff;
+    background: -moz-radial-gradient(bottom center,ellipse cover,rgba(255,255,255,.3) 0,rgba(0,0,0,0) 70%);
+    background: -webkit-radial-gradient(bottom center,ellipse cover,rgba(255,255,255,.3) 0,rgba(0,0,0,0) 70%);
+    background: radial-gradient(ellipse at bottom center,rgba(255,255,255,.3) 0,rgba(0,0,0,0) 70%);
+}
+.bc-hover {
+    background: -moz-radial-gradient(top center,ellipse cover,rgba(255,255,255,.2) 0,rgba(0,0,0,0) 70%);
+    background: -webkit-radial-gradient(top center,ellipse cover,rgba(255,255,255,.2) 0,rgba(0,0,0,0) 70%);
+    background: radial-gradient(ellipse at top center,rgba(255,255,255,.2) 0,rgba(0,0,0,0) 70%);
+    font-size: .8em;
+    color: #fff;
+}
+img.logo-casinoc1.bc-hover {
+    margin-left: 96%;
+    width: 75%;
+    display: block;
+}
+img.logo-casinoc2.bc-hover {
+    width: 75%;
+    margin-top: -75px;
+    display: block;
+    margin-left: 180%;
+}
+img.logo-casinoc3.bc-hover {
+    width: 75%;
+    margin-top: -75px;
+    display: block;
+    margin-left: 270%;
+}
+img.logo-casinoc4.bc-hover {
+    width: 75%;
+    margin-top: -83px;
+    display: block;
+    margin-left: 355%;
+}
+img.pro {
+    width: 58%;
+    margin-left: 228%;
+    margin-top: 28%;
+}
+a.pro {
+    position: absolute;
+}
+button.btn.btn-outline-warning.back {
+    border: 2px solid #FFCF32;
+    font-family: 'Kanit', sans-serif;
+}
+button.btn.btn-outline-warning.add-user {
+    border: 2px solid #FFCF32;
+    font-family: 'Kanit', sans-serif;
+}
+a.btn-add {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1%;
+}
+a.btn-back {
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+img.add {
+    position: absolute;
+    width: 13%;
+    margin-top: 39%;
+    margin-left: 43%;
+}
