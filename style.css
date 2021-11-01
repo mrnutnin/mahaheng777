@@ -1,7 +1,7 @@
 body{
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
 }
 marquee {
     height: 70%;
@@ -40,11 +40,8 @@ img.logo-casinoc4.bc-hover {
 }
 
 
-img.pro {
-    display: block;
-    margin: auto;
-    width: 15%;
-}
+
+
 
 
 button.btn.btn-outline-warning.back {
@@ -80,6 +77,204 @@ img.add {
         margin-top: 8%;
     }
  } */
+ .bg-mo{
+    display: none;
+}
+
+/* DES */
+.bg-des {
+    background-image: url(new16.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.row.align-items-start.ptomo {
+    margin-top: 2%;
+    text-align: center;
+}
+.col.pro {
+    display: block;
+    margin: auto;
+}
+
+.bg-mo{
+    display: none ; 
+}
+.bg-des {
+    display: block;
+}
+
+img.btnadd {
+    position: fixed;
+    bottom: 3%;
+    width: 15%;
+    height: auto;
+    /* text-align: center; */
+}
+.col.add {
+    text-align: center;
+    margin-left: -10%;
+}
+.scan {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 44%;
+}
+
+
+/* PROMOTION */
+.bg-pro {
+    background-image: url(new17.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.bg-promo {
+ display: none;
+}
+
+ @media only screen and (max-width: 375px) {
+    .bg-des{
+        display: none;
+    }
+    .bg-mo {
+        background-image: url(monew1.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    marquee {
+        display: none;
+    }
+    img.pro-mob {
+        width: 100%;
+    }
+    img.btnaddmo {
+        position: absolute;
+        bottom: 9%;
+        width: 50%;
+        left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    }
+    .col.pro {
+        display: block;
+        margin: auto;
+        margin-top: 40%;
+    }
+    .bg-promo {
+        background-image: url(pro4.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    .bg-pro {
+        display: none;
+    }
+    .col.align-self-start {
+        text-align: end;
+        margin-top: 5%;
+    }
+    .col.align-self-end {
+        position: absolute;
+        bottom: 0;
+        width: 1000px;
+        height: 50px;
+        text-align: end;
+    }
+}
+    
+    
+    @media screen  and (min-width: 376px) and (max-width: 425px) {
+        .bg-mo {
+            background-image: url(640m.png);
+            -webkit-background-size: cover;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        .col.pro {
+            display: block;
+            margin: auto;
+            margin-top: 33%;
+        }
+        .bg-des{
+            display: none;
+        }
+        .col.addmo {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100px;
+            text-align: center;
+        }
+        img.pro-mob {
+            width: 100%;
+        }
+        img.btnaddmo {
+            width: 50%;
+        }
+    }
+
+
+@media screen and (max-width: 360px) {
+    .bg-mo {
+        background-image: url(640m.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    .col.pro {
+        display: block;
+        margin: auto;
+        margin-top: 35%;
+    }
+    .bg-des{
+        display: none;
+    }
+    .col.addmo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100px;
+        text-align: center;
+    }
+    img.pro-mob {
+        width: 100%;
+    }
+    img.btnaddmo {
+        width: 50%;
+        bottom: 50%;
+    }
+}
+
+
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bg-des {
+        background-image: url(ipad12.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    .bg-mo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+} */
+
 
 @media screen and (max-width: 1024px) {
     img.add {
